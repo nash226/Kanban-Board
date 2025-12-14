@@ -6,7 +6,6 @@ Demo
 - https://nash226.github.io/Kanban-Board/
 
 Key features
-- Create, rename, and remove columns (lists).
 - Add, edit, and delete cards (tasks).
 - Drag-and-drop cards between columns and reorder within a column.
 - Persistent board state using localStorage (no backend required).
