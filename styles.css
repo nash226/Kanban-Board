@@ -87,3 +87,40 @@
     opacity: 0.5;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
+
+/* Portrait mode + small screens */
+@media (max-width: 600px) {
+
+  body {
+    padding: 10px;
+  }
+
+  .kanban-board {
+    flex-direction: column;       /* stack columns vertically */
+    gap: 15px;
+  }
+
+  .kanban-column {
+    width: 100%;
+  }
+
+  #add-task-form input {
+    width: 90%;                   /* full width input on mobile */
+    max-width: none;
+  }
+
+  #add-task-form button {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .task-card {
+    flex-direction: row;          /* keep delete button on right */
+  }
+}
+
+@media (max-width: 600px) {
+  .task-card {
+    padding: 15px;
+  }
+}
